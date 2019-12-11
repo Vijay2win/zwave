@@ -1,4 +1,4 @@
-package com.oberasoftware.home.zwave.api.events.devices;
+package com.oberasoftware.home.zwave.api.events;
 
 import java.util.List;
 

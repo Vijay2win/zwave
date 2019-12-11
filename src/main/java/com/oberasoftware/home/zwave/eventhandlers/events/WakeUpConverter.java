@@ -1,13 +1,8 @@
 package com.oberasoftware.home.zwave.eventhandlers.events;
 
 import com.oberasoftware.base.event.EventSubscribe;
-import com.oberasoftware.home.zwave.api.events.controller.ApplicationCommandEvent;
-import com.oberasoftware.home.zwave.api.events.devices.WakeUpEvent;
-import com.oberasoftware.home.zwave.api.events.devices.WakeUpIntervalReportEvent;
-import com.oberasoftware.home.zwave.api.events.devices.WakeUpNoMoreInformationEvent;
-import com.oberasoftware.home.zwave.api.events.devices.WakeUpReceivedEvent;
-import com.oberasoftware.home.zwave.api.events.SupportsConversion;
 import com.oberasoftware.home.zwave.api.ZWaveConverter;
+import com.oberasoftware.home.zwave.api.events.*;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 import org.slf4j.Logger;

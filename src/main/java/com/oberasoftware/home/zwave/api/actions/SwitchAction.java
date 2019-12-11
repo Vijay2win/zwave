@@ -1,7 +1,5 @@
 package com.oberasoftware.home.zwave.api.actions;
 
-import com.oberasoftware.home.zwave.api.ZWaveDeviceAction;
-
 /**
  * @author renarj
  */
@@ -36,7 +34,7 @@ public class SwitchAction implements ZWaveDeviceAction {
         this(nodeId, endpointId, desiredState, MAX_LEVEL);
     }
 
-    private SwitchAction(int nodeId, int endpointId, STATE desiredState, int level) {
+    public SwitchAction(int nodeId, int endpointId, STATE desiredState, int level) {
         this.nodeId = nodeId;
         this.endpointId = endpointId;
         this.desiredState = desiredState;

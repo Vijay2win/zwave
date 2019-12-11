@@ -1,7 +1,7 @@
 package com.oberasoftware.home.zwave.core.impl;
 
 import com.oberasoftware.base.event.EventBus;
-import com.oberasoftware.home.zwave.api.events.devices.NodeRegisteredEvent;
+import com.oberasoftware.home.zwave.api.events.NodeRegisteredEvent;
 import com.oberasoftware.home.zwave.core.NodeAvailability;
 import com.oberasoftware.home.zwave.core.NodeStatus;
 import org.junit.Test;

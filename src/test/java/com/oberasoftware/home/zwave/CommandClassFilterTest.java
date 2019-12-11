@@ -1,11 +1,12 @@
 package com.oberasoftware.home.zwave;
 
 import com.oberasoftware.base.event.impl.HandlerEntryImpl;
-import com.oberasoftware.home.zwave.api.events.controller.ApplicationCommandEvent;
+import com.oberasoftware.home.zwave.api.events.ApplicationCommandEvent;
 import com.oberasoftware.home.zwave.api.events.SupportsConversion;
 import com.oberasoftware.home.zwave.filters.CommandClassFilter;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
+
 import org.junit.Test;
 
 import java.lang.reflect.Method;

@@ -1,7 +1,7 @@
 package com.oberasoftware.home.zwave;
 
 import com.oberasoftware.home.zwave.api.ControllerConnector;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
 import com.oberasoftware.home.zwave.core.utils.IOSupplier;
 import com.oberasoftware.home.zwave.exceptions.RuntimeAutomationException;
 import com.oberasoftware.home.zwave.exceptions.ZWaveConfigurationException;

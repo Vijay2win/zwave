@@ -1,8 +1,8 @@
 package com.oberasoftware.home.zwave;
 
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
-import com.oberasoftware.home.zwave.api.ZWaveAction;
-import com.oberasoftware.home.zwave.api.events.controller.TransactionEvent;
+import com.oberasoftware.home.zwave.api.actions.ZWaveAction;
+import com.oberasoftware.home.zwave.api.events.TransactionEvent;
 
 /**
  * @author renarj

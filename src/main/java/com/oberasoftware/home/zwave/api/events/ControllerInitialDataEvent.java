@@ -1,4 +1,4 @@
-package com.oberasoftware.home.zwave.api.events.controller;
+package com.oberasoftware.home.zwave.api.events;
 
 import com.google.common.collect.Lists;
 

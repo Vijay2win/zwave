@@ -1,7 +1,5 @@
-package com.oberasoftware.home.zwave.api.actions.devices;
+package com.oberasoftware.home.zwave.api.actions;
 
-import com.oberasoftware.home.zwave.api.ZWaveDeviceAction;
-import com.oberasoftware.home.zwave.api.ZWaveIntervalAction;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 
 /**

@@ -3,6 +3,8 @@ package com.oberasoftware.home.zwave.api;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
+import com.oberasoftware.home.zwave.api.actions.ZWaveIntervalAction;
+
 /**
  * @author renarj
  */

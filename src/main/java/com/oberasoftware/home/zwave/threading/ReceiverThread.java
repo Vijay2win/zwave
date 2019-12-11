@@ -2,8 +2,9 @@ package com.oberasoftware.home.zwave.threading;
 
 import com.oberasoftware.base.event.EventBus;
 import com.oberasoftware.home.zwave.SerialZWaveConnector;
-import com.oberasoftware.home.zwave.api.messages.ByteMessage;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
+import com.oberasoftware.home.zwave.core.ByteMessage;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +16,9 @@ import java.io.OutputStream;
 
 import static com.oberasoftware.home.zwave.ZWAVE_CONSTANTS.ACK;
 import static com.oberasoftware.home.zwave.ZWAVE_CONSTANTS.SOF;
+import static com.oberasoftware.home.zwave.core.ZWaveRawMessage.bb2hex;
 import static com.oberasoftware.home.zwave.ZWAVE_CONSTANTS.NAK;
 import static com.oberasoftware.home.zwave.ZWAVE_CONSTANTS.CAN;
-import static com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage.bb2hex;
 
 /**
  * @author Renze de Vries

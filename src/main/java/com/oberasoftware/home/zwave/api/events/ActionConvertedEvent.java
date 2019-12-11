@@ -1,6 +1,6 @@
 package com.oberasoftware.home.zwave.api.events;
 
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
 
 /**
  * @author renarj

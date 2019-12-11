@@ -3,8 +3,9 @@ package com.oberasoftware.home.zwave.eventhandlers;
 import com.oberasoftware.base.event.EventHandler;
 import com.oberasoftware.base.event.EventSubscribe;
 import com.oberasoftware.home.zwave.TransactionManager;
+import com.oberasoftware.home.zwave.core.ByteMessage;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
-import com.oberasoftware.home.zwave.api.messages.ByteMessage;
+
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

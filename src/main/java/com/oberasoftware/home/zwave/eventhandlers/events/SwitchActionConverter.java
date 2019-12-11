@@ -1,4 +1,4 @@
-package com.oberasoftware.home.zwave.eventhandlers.actions;
+package com.oberasoftware.home.zwave.eventhandlers.events;
 
 import com.oberasoftware.base.event.EventSubscribe;
 import com.oberasoftware.home.zwave.ZWAVE_CONSTANTS;
@@ -13,9 +13,6 @@ import org.springframework.stereotype.Component;
 import static com.oberasoftware.home.zwave.api.messages.types.ControllerMessageType.SendData;
 import static com.oberasoftware.home.zwave.api.messages.types.MessageType.Request;
 
-/**
- * @author renarj
- */
 @Component
 public class SwitchActionConverter implements ZWaveConverter {
 
@@ -26,7 +23,7 @@ public class SwitchActionConverter implements ZWaveConverter {
     public ActionConvertedEvent convert(SwitchAction switchAction, int callbackId) throws HomeAutomationException {
         int level = switchAction.getLevel();
 
-        if(level >0 && level < SwitchAction.MAX_LEVEL) {
+        if(level >= 0 && level < SwitchAction.MAX_LEVEL) {
             //we will set a dimmer level
             return ActionConverterBuilder.create(SendData, Request, switchAction)
                     .addCommandClass(CommandClass.SWITCH_MULTILEVEL)
@@ -36,7 +33,6 @@ public class SwitchActionConverter implements ZWaveConverter {
                     .construct();
         } else {
             int command = switchAction.getDesiredState() == SwitchAction.STATE.ON ? 0xFF : 0x00;
-
             return ActionConverterBuilder.create(SendData, Request, switchAction)
                     .addInt(SWITCH_BINARY)
                     .addInt(ZWAVE_CONSTANTS.SWITCH_BINARY_SET)

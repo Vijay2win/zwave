@@ -6,7 +6,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package com.oberasoftware.home.zwave.api.messages;
+package com.oberasoftware.home.zwave.core;
 
 import com.oberasoftware.home.zwave.core.utils.MessageUtil;
 import com.oberasoftware.home.zwave.api.messages.types.ControllerMessageType;

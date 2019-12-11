@@ -1,10 +1,10 @@
 package com.oberasoftware.home.zwave.eventhandlers;
 
-import com.oberasoftware.home.zwave.api.ZWaveDeviceAction;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 import com.oberasoftware.home.zwave.api.messages.types.ControllerMessageType;
 import com.oberasoftware.home.zwave.api.messages.types.MessageType;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
+import com.oberasoftware.home.zwave.api.actions.ZWaveDeviceAction;
 import com.oberasoftware.home.zwave.api.events.ActionConvertedEvent;
 import org.slf4j.Logger;
 

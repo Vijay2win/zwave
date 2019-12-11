@@ -1,6 +1,5 @@
-package com.oberasoftware.home.zwave.api.events.devices;
+package com.oberasoftware.home.zwave.api.events;
 
-import com.oberasoftware.home.zwave.api.events.controller.TransactionEvent;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package com.oberasoftware.home.zwave.core;
 
 
-import com.oberasoftware.home.zwave.api.events.controller.NodeIdentifyEvent;
-import com.oberasoftware.home.zwave.api.events.devices.ManufactorInfoEvent;
+import com.oberasoftware.home.zwave.api.events.ManufactorInfoEvent;
+import com.oberasoftware.home.zwave.api.events.NodeIdentifyEvent;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 
 import java.util.List;

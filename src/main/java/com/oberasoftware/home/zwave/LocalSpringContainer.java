@@ -1,6 +1,5 @@
-package com.oberasoftware.home.spring;
+package com.oberasoftware.home.zwave;
 
-import com.oberasoftware.home.zwave.ZWaveConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

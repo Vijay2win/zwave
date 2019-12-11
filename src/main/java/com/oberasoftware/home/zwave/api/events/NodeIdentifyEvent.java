@@ -1,4 +1,4 @@
-package com.oberasoftware.home.zwave.api.events.controller;
+package com.oberasoftware.home.zwave.api.events;
 
 import com.oberasoftware.home.zwave.api.messages.types.BasicDeviceClass;
 import com.oberasoftware.home.zwave.api.messages.types.GenericDeviceClass;

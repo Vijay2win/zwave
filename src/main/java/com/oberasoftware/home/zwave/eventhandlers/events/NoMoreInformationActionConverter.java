@@ -1,9 +1,9 @@
-package com.oberasoftware.home.zwave.eventhandlers.actions.devices;
+package com.oberasoftware.home.zwave.eventhandlers.events;
 
 import com.oberasoftware.base.event.EventSubscribe;
-import com.oberasoftware.home.zwave.api.actions.devices.NoMoreInformationAction;
 import com.oberasoftware.home.zwave.eventhandlers.ActionConverterBuilder;
 import com.oberasoftware.home.zwave.api.ZWaveConverter;
+import com.oberasoftware.home.zwave.api.actions.NoMoreInformationAction;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 import com.oberasoftware.home.zwave.api.messages.types.ControllerMessageType;

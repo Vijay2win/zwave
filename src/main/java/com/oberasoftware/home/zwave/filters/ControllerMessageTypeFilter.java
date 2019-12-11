@@ -3,8 +3,9 @@ package com.oberasoftware.home.zwave.filters;
 import com.oberasoftware.base.event.EventFilter;
 import com.oberasoftware.base.event.HandlerEntry;
 import com.oberasoftware.home.zwave.api.events.SupportsConversion;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
 import com.oberasoftware.home.zwave.api.messages.types.ControllerMessageType;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
+
 import org.slf4j.Logger;
 import org.springframework.stereotype.Component;
 

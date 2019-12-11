@@ -1,7 +1,7 @@
 package com.oberasoftware.home.zwave.api;
 
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
 import com.oberasoftware.home.zwave.exceptions.ZWaveException;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
 
 /**
  * @author renarj

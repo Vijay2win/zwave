@@ -2,8 +2,8 @@ package com.oberasoftware.home.zwave.eventhandlers;
 
 import com.oberasoftware.base.event.EventHandler;
 import com.oberasoftware.base.event.EventSubscribe;
-import com.oberasoftware.home.zwave.api.actions.devices.MultiInstanceEndpointAction;
-import com.oberasoftware.home.zwave.api.events.devices.NodeUpdatedEvent;
+import com.oberasoftware.home.zwave.api.actions.MultiInstanceEndpointAction;
+import com.oberasoftware.home.zwave.api.events.NodeUpdatedEvent;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Component;

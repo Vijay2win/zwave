@@ -2,7 +2,7 @@ package com.oberasoftware.home.zwave.filters;
 
 import com.oberasoftware.base.event.EventFilter;
 import com.oberasoftware.base.event.HandlerEntry;
-import com.oberasoftware.home.zwave.api.actions.devices.GenerateCommandClassPollAction;
+import com.oberasoftware.home.zwave.api.actions.GenerateCommandClassPollAction;
 import com.oberasoftware.home.zwave.api.events.SupportsConversion;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 import org.slf4j.Logger;

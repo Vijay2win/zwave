@@ -1,9 +1,9 @@
-package com.oberasoftware.home.zwave.eventhandlers.actions.devices;
+package com.oberasoftware.home.zwave.eventhandlers.events;
 
 import com.oberasoftware.base.event.EventHandler;
 import com.oberasoftware.base.event.EventSubscribe;
-import com.oberasoftware.home.zwave.api.actions.devices.SwitchBinaryGetAction;
-import com.oberasoftware.home.zwave.api.actions.devices.GenerateCommandClassPollAction;
+import com.oberasoftware.home.zwave.api.actions.GenerateCommandClassPollAction;
+import com.oberasoftware.home.zwave.api.actions.SwitchBinaryGetAction;
 import com.oberasoftware.home.zwave.api.events.ActionConvertedEvent;
 import com.oberasoftware.home.zwave.api.events.SupportsConversion;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;

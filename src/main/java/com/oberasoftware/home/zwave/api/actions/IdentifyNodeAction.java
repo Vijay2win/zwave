@@ -1,6 +1,4 @@
-package com.oberasoftware.home.zwave.api.actions.devices;
-
-import com.oberasoftware.home.zwave.api.ZWaveAction;
+package com.oberasoftware.home.zwave.api.actions;
 
 /**
  * @author renarj

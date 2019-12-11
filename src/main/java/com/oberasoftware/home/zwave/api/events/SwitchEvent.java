@@ -1,6 +1,4 @@
-package com.oberasoftware.home.zwave.api.events.devices;
-
-import com.oberasoftware.home.zwave.api.events.controller.TransactionEvent;
+package com.oberasoftware.home.zwave.api.events;
 
 /**
  * @author renarj

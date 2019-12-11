@@ -1,7 +1,7 @@
 package com.oberasoftware.home.zwave.core.impl;
 
-import com.oberasoftware.home.zwave.api.events.controller.NodeIdentifyEvent;
-import com.oberasoftware.home.zwave.api.events.devices.ManufactorInfoEvent;
+import com.oberasoftware.home.zwave.api.events.ManufactorInfoEvent;
+import com.oberasoftware.home.zwave.api.events.NodeIdentifyEvent;
 import com.oberasoftware.home.zwave.api.messages.types.CommandClass;
 import com.oberasoftware.home.zwave.core.NodeAvailability;
 import com.oberasoftware.home.zwave.core.NodeStatus;
@@ -19,7 +19,6 @@ import java.util.Set;
  * @author renarj
  */
 public class ZWaveNodeImpl implements ZWaveNode {
-
     private final int nodeId;
     private NodeStatus nodeStatus = NodeStatus.UNKNOWN;
     private NodeAvailability availability = NodeAvailability.UNKNOWN;
@@ -137,21 +136,20 @@ public class ZWaveNodeImpl implements ZWaveNode {
         clone.setCommandClasses(commandClasses);
         clone.setEndpoints(endpoints);
         clone.setNodeProperties(nodeProperties);
-
         return clone;
     }
 
     @Override
     public String toString() {
         return "ZWaveNodeImpl{" +
-                "nodeId=" + nodeId +
-                ", nodeStatus=" + nodeStatus +
-                ", availability=" + availability +
-                ", optionalNodeInformation=" + optionalNodeInformation +
-                ", optionalManufacturerInformation=" + optionalManufacturerInformation +
-                ", commandClasses=" + commandClasses +
-                ", endpoints=" + endpoints +
-                ", nodeProperties=" + nodeProperties +
+                "nodeId : " + nodeId +
+                ", nodeStatus : " + nodeStatus +
+                ", availability : " + availability +
+                ", optionalNodeInformation : " + optionalNodeInformation +
+                ", optionalManufacturerInformation : " + optionalManufacturerInformation +
+                ", commandClasses : " + commandClasses +
+                ", endpoints : " + endpoints +
+                ", nodeProperties : " + nodeProperties +
                 '}';
     }
 }

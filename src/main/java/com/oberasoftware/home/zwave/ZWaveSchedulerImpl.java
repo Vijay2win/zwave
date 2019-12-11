@@ -1,7 +1,7 @@
 package com.oberasoftware.home.zwave;
 
-import com.oberasoftware.home.zwave.api.ZWaveIntervalAction;
 import com.oberasoftware.home.zwave.api.ZWaveScheduler;
+import com.oberasoftware.home.zwave.api.actions.ZWaveIntervalAction;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

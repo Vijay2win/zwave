@@ -1,10 +1,10 @@
-package com.oberasoftware.home.zwave;
+package com.oberasoftware.home.zwave.api;
 
 import com.oberasoftware.base.event.EventHandler;
-import com.oberasoftware.home.zwave.api.ZWaveAction;
-import com.oberasoftware.home.zwave.api.ZWaveIntervalAction;
-import com.oberasoftware.home.zwave.api.ZWaveScheduler;
-import com.oberasoftware.home.zwave.api.ZWaveSession;
+import com.oberasoftware.home.zwave.SerialZWaveConnector;
+import com.oberasoftware.home.zwave.ZWaveController;
+import com.oberasoftware.home.zwave.api.actions.ZWaveAction;
+import com.oberasoftware.home.zwave.api.actions.ZWaveIntervalAction;
 import com.oberasoftware.home.zwave.core.NodeManager;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
 import com.oberasoftware.home.zwave.exceptions.ZWaveException;
@@ -32,9 +32,10 @@ public class ZwaveSessionImpl implements ZWaveSession {
     private NodeManager nodeManager;
 
     @Override
-    public void connect() throws ZWaveException {
+    public ZwaveSessionImpl connect() throws ZWaveException {
         zWaveConnector.connect();
         zWaveController.initializeNetwork();
+        return this;
     }
 
     @Override
@@ -43,8 +44,9 @@ public class ZwaveSessionImpl implements ZWaveSession {
     }
 
     @Override
-    public void subscribe(EventHandler eventListener) {
+    public ZwaveSessionImpl subscribe(EventHandler eventListener) {
         zWaveController.subscribe(eventListener);
+        return this;
     }
 
     @Override

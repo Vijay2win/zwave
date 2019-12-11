@@ -1,12 +1,13 @@
-package com.oberasoftware.home.zwave.eventhandlers.controller;
+package com.oberasoftware.home.zwave.eventhandlers.events;
 
 import com.oberasoftware.base.event.EventSubscribe;
-import com.oberasoftware.home.zwave.api.events.controller.TransactionIdEvent;
 import com.oberasoftware.home.zwave.api.events.SupportsConversion;
+import com.oberasoftware.home.zwave.api.events.TransactionIdEvent;
 import com.oberasoftware.home.zwave.api.ZWaveConverter;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
 import com.oberasoftware.home.zwave.api.messages.types.ControllerMessageType;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
+
 import org.springframework.stereotype.Component;
 
 /**

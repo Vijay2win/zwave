@@ -1,6 +1,6 @@
-package com.oberasoftware.home.zwave.api;
+package com.oberasoftware.home.zwave.api.actions;
 
-import com.oberasoftware.home.zwave.api.messages.ZWaveMessage;
+import com.oberasoftware.home.zwave.core.ZWaveMessage;
 
 /**
  * @author renarj

@@ -1,6 +1,7 @@
 package com.oberasoftware.home.zwave.api;
 
 import com.oberasoftware.base.event.EventHandler;
+import com.oberasoftware.home.zwave.api.actions.ZWaveAction;
 import com.oberasoftware.home.zwave.exceptions.HomeAutomationException;
 
 /**

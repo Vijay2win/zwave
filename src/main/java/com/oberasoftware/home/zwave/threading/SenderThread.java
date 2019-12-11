@@ -1,7 +1,8 @@
 package com.oberasoftware.home.zwave.threading;
 
 import com.oberasoftware.home.zwave.SerialZWaveConnector;
-import com.oberasoftware.home.zwave.api.messages.ZWaveRawMessage;
+import com.oberasoftware.home.zwave.core.ZWaveRawMessage;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

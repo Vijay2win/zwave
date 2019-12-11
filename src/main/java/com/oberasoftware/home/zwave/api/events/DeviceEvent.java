@@ -1,6 +1,4 @@
-package com.oberasoftware.home.zwave.api.events.devices;
-
-import com.oberasoftware.home.zwave.api.events.ZWaveEvent;
+package com.oberasoftware.home.zwave.api.events;
 
 /**
  * @author renarj

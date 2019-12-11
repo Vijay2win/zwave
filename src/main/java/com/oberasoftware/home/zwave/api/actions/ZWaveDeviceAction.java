@@ -1,4 +1,4 @@
-package com.oberasoftware.home.zwave.api;
+package com.oberasoftware.home.zwave.api.actions;
 
 /**
  * @author renarj
